@@ -1,0 +1,25 @@
+
+
+// in users - One-to-Many
+
+{
+"id": 1,
+"firstName": "Jenny",
+"lastName": "Darby",
+
+"roles": ["mother", "employee", "sister"]
+}
+
+// in users - One-to-One
+
+{
+"id": 1,
+"birthDate": 5/30/1980
+}
+
+// in users - Many-to-Many
+
+{
+"id": [1, 2, 3],
+"dependents": ["John", "Mary", "Bonnie", "Clyde"]
+}
