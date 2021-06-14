@@ -1,0 +1,29 @@
+{
+    "_id":45,
+    "name":"Diagrams 101",
+    "enroll":
+        [
+           {
+            "_id":96,
+            "grade":"A",
+            "student":
+                {
+                   "_id" : 5,
+                   "first_name":"Mike",
+                   "last_name":"Hoskins",
+                   "mi":"J"
+                }
+           },
+           {
+            "_id":74,
+            "grade":"B",
+            "student":
+                {
+                    "_id" : 7,
+                    "first_name":"Michelle",
+                    "last_name":"Rogers",
+                    "mi":"T"
+                }  
+           }
+        ]
+}

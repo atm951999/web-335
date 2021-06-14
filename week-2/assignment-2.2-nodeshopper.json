@@ -1,0 +1,57 @@
+{
+    
+    "_id": 1,
+    "first_name": "Anthony",
+    "lastName": "Smith",
+    "date_of_birth": "03/18/1984",
+    "user_name": "asmith",
+    "invoices": 
+    [
+        {
+            "_id": 456,
+            "date_created": "04/26/2020",
+            "date_shipped": "04/30/2020",
+            "subtotal"    : "$355.50",
+            "tax": "$34.48",
+            "total": "$390.98",
+            "line-item":[
+                {
+                    "_id": 147,
+                    "name": "thingy",
+                    "price": "$68.34",
+                    "quantity": 3
+                },
+                {
+                    "_id": 152,
+                    "name": "dohicky",
+                    "price": "$75.24",
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "_id": 325,
+            "date_created": "03/08/2020",
+            "date_shipped": "03/16/2020",
+            "subtotal": "$271.47",
+            "tax": "$29.51",
+            "total": "$300.98",
+            "line-item": [
+                {
+                    "_id": 121,
+                    "name": "doflocker",
+                    "price": "$94.76",
+                    "quantity": 2
+                },
+                {
+                    "_id": 101,
+                    "name": "thingamabob",
+                    "price": "$81.95",
+                    "quantity": 1
+                }
+            ]
+    
+        }
+    ]
+    
+}
