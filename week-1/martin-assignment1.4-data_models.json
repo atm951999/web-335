@@ -1,0 +1,27 @@
+[
+    {
+        "firstName": "Wolfgang",
+        "lastName": "Mozart",
+        "roles": [
+            {
+                "id": "1001",
+                "text": "admin"
+            },
+            {
+                "id": "1002",
+                "text": "standard"
+            }
+        ],
+        "dependents": [
+            {
+                "firstName": "Karl",
+                "lastName": "Mozart"
+            },
+            {
+                "firstName": "Franz",
+                "lastName": "Mozart"
+            }
+        ],
+        "birthdate": "27 January 1756"
+    }
+]
