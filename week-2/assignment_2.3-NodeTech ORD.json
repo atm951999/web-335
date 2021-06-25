@@ -1,29 +1,28 @@
-{
-    "_id":45,
-    "name":"Diagrams 101",
-    "enroll":
-        [
-           {
-            "_id":96,
-            "grade":"A",
-            "student":
-                {
-                   "_id" : 5,
-                   "first_name":"Mike",
-                   "last_name":"Hoskins",
-                   "mi":"J"
-                }
-           },
-           {
-            "_id":74,
-            "grade":"B",
-            "student":
-                {
-                    "_id" : 7,
-                    "first_name":"Michelle",
-                    "last_name":"Rogers",
-                    "mi":"T"
-                }  
-           }
+[
+    {
+        "student_id": "1007",
+        "first_name": "Ludwig",
+        "last_name": "Beethoven",
+        "enrollments": [
+            {
+                "term": "Session 3",
+                "gpa": "4.0",
+                "start_date": "1/1/2021",
+                "courses": [
+                    {
+                        "course_id": "WEB 335",
+                        "description": "Introduction to NoSQL",
+                        "instructor": "Professor Krasso",
+                        "grade": "4"
+                    },
+                    {
+                        "course_id": "WEB 420",
+                        "description": "RESTful APIs",
+                        "instructor": "Professor Krasso",
+                        "grade": "4"
+                    }
+                ]
+            }
         ]
-}
+    }
+]
